@@ -159,10 +159,11 @@ form button {
     font-family: 'Poppins', sans-serif;
     border: none;
     cursor: pointer;
-    padding: 8px 11px 7px 7px;
-    -webkit-padding: 8px 11px 7px 7px;
+    padding: 0 11px;
     border-radius: 0 15px 15px 0;
     background-color: #d3d3d6;
+    min-height: 45px;
+    height: 100%;
 }
 
 #tasks button:hover {
