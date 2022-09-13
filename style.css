@@ -11,6 +11,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f3;
+    height: 100vh;
 }
 
 .todo-wrapper {
@@ -120,7 +121,7 @@ form button {
     margin-bottom: 15px;
     background-color: #fff;
     border-radius: 15px;
-    padding: 10px 20px;
+    padding: 10px 95px 10px 40px;
     cursor: pointer;
     position: relative;
 }
@@ -199,6 +200,11 @@ form button {
     #tasks li {
         border-radius: 15px;
         padding: 7px 80px 7px 35px;
+    }
+
+    #tasks li.checked::before {
+        height: 12px;
+        width: 5px;
     }
 
     #tasks button {
